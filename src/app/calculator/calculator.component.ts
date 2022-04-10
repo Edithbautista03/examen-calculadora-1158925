@@ -37,7 +37,7 @@ export class CalculatorComponent implements OnInit {
     }
   }
   
-   private doCalculation(op:any , secondOp:any){ //se agregó any al parámetro op y secondOp ya que marcaba error
+   private doCalculation(op:any , secondOp:any){ 
     switch (op){
       case '+':
       return this.firstOperand += secondOp; 
